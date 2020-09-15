@@ -78,6 +78,7 @@ brews:
     dependencies:
 #      - name: git
       - name: go
+      - name: gcc
 #      - name: zsh
 #        type: optional
 
