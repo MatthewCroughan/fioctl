@@ -76,10 +76,10 @@ brews:
 
     # Packages your package depends on.
     dependencies:
-      - name: git
+#      - name: git
       - name: go
-      - name: zsh
-        type: optional
+#      - name: zsh
+#        type: optional
 
     test: |
       system "#{bin}/fioctl -v"
