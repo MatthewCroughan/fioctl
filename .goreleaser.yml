@@ -5,7 +5,7 @@ before:
     # You may remove this if you don't use go modules.
     - go mod download
     # you may remove this if you don't need go generate
-    - go generate ./...
+    #- go generate ./...
 builds:
   - env:
       - CGO_ENABLED=0
@@ -51,10 +51,6 @@ brews:
     # Example: https://docs.brew.sh/Formula-Cookbook#specifying-the-download-strategy-explicitly
     # Default is empty.
     download_strategy: CurlDownloadStrategy.
-
-    # Allows you to add a custom require_relative at the top of the formula template
-    # Default is empty
-    custom_require: custom_download_strategy
 
     # Git author used to commit to the repository.
     # Defaults are shown.
