@@ -77,7 +77,6 @@ brews:
     # Packages your package depends on.
     dependencies:
       - name: git
-      - name: go
       - name: zsh
         type: optional
 
