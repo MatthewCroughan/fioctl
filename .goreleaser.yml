@@ -70,6 +70,8 @@ brews:
     # Default is empty.
     homepage: "https://foundries.io"
 
+    folder: Formula
+
     # Your app's description.
     # Default is empty.
     description: "A simple tool to interact with the Foundries.io REST API for managing a Factory."
